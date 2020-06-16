@@ -1,0 +1,39 @@
+{
+  "name": "react-dummy",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/classnames": "^2.2.10",
+    "@types/react": "^16.9.34",
+    "@types/react-redux": "^7.1.8",
+    "classnames": "^2.2.6",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "redux-thunk": "^2.3.0",
+    "typescript": "^3.8.3"
+  },
+  "description": "> Dummy files for React/React Native components, Redux and other stuff I use, but _too-lazy-to-read-documentation-for-so-I-just-put-some-docs-on-code_ to help me.",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/react-native": "^0.62.7",
+    "@types/react-navigation": "^3.4.0",
+    "@types/redux": "^3.6.0",
+    "react-native": "^0.62.2",
+    "react-navigation": "^4.3.9",
+    "redux": "^4.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuigoto/react-dummy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuigoto/react-dummy/issues"
+  },
+  "homepage": "https://github.com/yuigoto/react-dummy#readme"
+}

@@ -4,6 +4,8 @@
 
 Made because some CTRL+C/V is needed sometimes. :wink:
 
+Has both TypeScript and JavaScript versions.
+
 ----------------------------------------------------------------------
 
 ## Authors
