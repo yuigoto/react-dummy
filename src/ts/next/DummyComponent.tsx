@@ -127,6 +127,19 @@ class DummyComponentContainer extends Component<DummyComponentProps> {
    */
   public state: iOwnState = {};
   
+  // PROPRIEDADES ESTÁTICAS
+  // STATIC PROPERTIES
+  // --------------------------------------------------------------------
+
+  /**
+   * Default props passadas.
+   * 
+   * Default props.
+   */
+  static defaultProps: DummyComponentProps = {
+    children: null
+  };
+
   // MÉTODOS ESTÁTICOS
   // STATIC METHODS
   // --------------------------------------------------------------------

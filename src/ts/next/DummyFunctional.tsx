@@ -31,8 +31,8 @@ interface iDummyContext extends NextPageContext {
 /**
  * DummyFunctional
  * ----------------------------------------------------------------------
- * Exemplo de componente funcional.
- * Functional component example.
+ * Exemplo de componente funcional, contempla funcionais e paginas.
+ * Functional component example, contemplate functions and pages.
  * 
  * @param props 
  *     Props a serem passadas ao componente

@@ -1,11 +1,9 @@
-import React, { Component, HTMLAttributes, ReactNode } from "react";
+import React, { Component } from "react";
 import { Dispatch } from "redux";
 import { connect } from "react-redux";
-import classnames from "classnames";
-import { withRouter, SingletonRouter } from "next/router";
+import { withRouter } from "next/router";
 import { NextPageContext } from "next";
-
-// TODOOOOOOOOO
+import { WithRouterProps } from "next/dist/client/with-router";
 
 // PROP TYPES
 // ----------------------------------------------------------------------
@@ -30,8 +28,7 @@ interface iOwnState {}
  * 
  * @since 0.0.1
  */
-interface iOwnProps {
-  router?: SingletonRouter
+interface iOwnProps extends WithRouterProps {
 }
 
 /**
@@ -108,7 +105,7 @@ const mapDispatchToProps = (dispatch: Dispatch) => ({
  * 
  * @since 0.0.1
  */
-class DummyComponentContainer extends React.Component<DummyComponentProps> {
+class DummyComponentContainer extends Component<DummyComponentProps> {
   // PROPRIEDADES
   // PROPERTIES
   // --------------------------------------------------------------------
@@ -458,4 +455,20 @@ class DummyComponentContainer extends React.Component<DummyComponentProps> {
 
 // ----------------------------------------------------------------------
 
-export default withRouter(DummyComponentContainer);
+/**
+ * DummyComponent
+ * ----------------------------------------------------------------------
+ * Componente a ser exportado.
+ * 
+ * Component to be exported.
+ * 
+ * @since 0.0.1
+ */
+const DummyComponent = connect<iStateProps, iDispatchProps, iOwnProps>(
+  mapStateToProps,
+  mapDispatchToProps
+)(DummyComponentContainer);
+
+// ----------------------------------------------------------------------
+
+export default withRouter(DummyComponent);
