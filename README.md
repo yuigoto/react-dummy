@@ -10,15 +10,26 @@ Has both TypeScript and JavaScript versions.
 
 ----------------------------------------------------------------------
 
+Feito porque um CTRL+C/V é necessário às vezes. :wink:
+
+Contempla TypeScript e JavaScript.
+
+----------------------------------------------------------------------
+
 ## Authors
 
 See `AUTHORS.md` for more information.
+
+
+Veja `AUTHORS.md` para maiores detalhes.
 
 ----------------------------------------------------------------------
 
 ## License
 
 This project is licensed under the `MIT License`. See `LICENSE.md` for more details on the subjects of the license.
+
+Este projeto está sob a `Licença MIT`. Veja o arquivo `LICENSE.md` para maiores detalhes sobre a mesma.
 
 ----------------------------------------------------------------------
 
